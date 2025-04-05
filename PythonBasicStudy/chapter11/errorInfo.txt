@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\studynote\00-ai-llm\workbench\PythonBasicStudy\chapter11\1102.py", line 30, in dinnerWithTraceBack
+    dinner()
+  File "D:\studynote\00-ai-llm\workbench\PythonBasicStudy\chapter11\1102.py", line 6, in dinner
+    bacon()
+  File "D:\studynote\00-ai-llm\workbench\PythonBasicStudy\chapter11\1102.py", line 10, in bacon
+    raise Exception('this is the error msg.')
+Exception: this is the error msg.
